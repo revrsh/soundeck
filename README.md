@@ -1,5 +1,5 @@
 # 📷 Screenshot
-<img src="https://raw.githubusercontent.com/Reverseeh/soundeck/refs/heads/main/screenshots/screenshot1.png" width="365"> <img src="https://raw.githubusercontent.com/Reverseeh/soundeck/refs/heads/main/screenshots/screenshot2.png" width="365">
+<img src="https://raw.githubusercontent.com/revrsh/soundeck/refs/heads/main/screenshots/screenshot1.png" width="365">  <img src="https://raw.githubusercontent.com/revrsh/soundeck/refs/heads/main/screenshots/screenshot2.png" width="365">
 
 ___
 
