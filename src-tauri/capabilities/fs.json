@@ -1,0 +1,28 @@
+{
+  "identifier": "fs-capability",
+  "description": "Capability for the main window",
+  "windows": ["*"],
+  "permissions": [
+    {
+      "identifier": "fs:allow-read-file",
+      "allow": [{ "path": "$APPDATA/**" }]
+    },
+    {
+      "identifier": "fs:allow-write-file",
+      "allow": [{ "path": "$APPDATA/**" }]
+    },
+    {
+      "identifier": "fs:allow-exists",
+      "allow": [{ "path": "$APPDATA/**" }]
+    },
+    {
+      "identifier": "fs:allow-appdata-write",
+      "allow": [{ "path": "$APPDATA/**" }]
+    },
+    {
+      "identifier": "fs:allow-appdata-read",
+      "allow": [{ "path": "$APPDATA/**" }]
+    },
+    "fs:allow-appconfig-meta-recursive"
+  ]
+}

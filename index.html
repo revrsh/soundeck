@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tauri + React + Typescript</title>
+  </head>
+
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+    <script>
+      document.addEventListener('DOMContentLoaded', () => {
+        document.addEventListener('contextmenu', (e) => {
+          e.preventDefault()
+        });
+      });
+      document.addEventListener('keydown', function (event) {
+        if (event.key === 'F5' || (event.ctrlKey && event.key === 'r') || (event.metaKey && event.key === 'r')) {
+          event.preventDefault();
+        }
+      });
+      document.addEventListener('contextmenu', function (event) {
+        event.preventDefault();
+      });
+    </script>
+    <img id="hidden-check" src="/src/assets/check.png" hidden>
+    <img id="hidden-close" src="/src/assets/close.png" hidden>
+    <img id="hidden-delete-menu" src="/src/assets/delete_menu.png" hidden>
+    <img id="hidden-edit-menu" src="/src/assets/edit_menu.png" hidden>
+    <img id="hidden-folder" src="/src/assets/folder.png" hidden>
+    <img id="hidden-folder-input" src="/src/assets/folder_input.png" hidden>
+    <img id="hidden-folder-menu" src="/src/assets/folder_menu.png" hidden>
+    <img id="hidden-left-arrow" src="/src/assets/left_arrow.png" hidden>
+    <img id="hidden-loop-disabled" src="/src/assets/loop_disabled.png" hidden>
+    <img id="hidden-loop-enabled" src="/src/assets/loop_enabled.png" hidden>
+    <img id="hidden-minimize" src="/src/assets/minimize.png" hidden>
+    <img id="hidden-right-arrow" src="/src/assets/right_arrow.png" hidden>
+    <img id="hidden-settings" src="/src/assets/settings.png" hidden>
+    <img id="hidden-sound" src="/src/assets/sound.png" hidden>
+    <img id="hidden-sound-menu" src="/src/assets/sound_menu.png" hidden>
+    <img id="hidden-stop" src="/src/assets/stop.png" hidden>
+    <img id="hidden-stop-menu" src="/src/assets/stop_menu.png" hidden>
+  </body>
+</html>

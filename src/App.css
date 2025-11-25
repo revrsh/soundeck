@@ -1,0 +1,45 @@
+@import "tailwindcss";
+
+@font-face { font-family:Inter; font-style:normal; font-weight:400; font-display:swap; src:url("assets/fonts//inter-v20-latin-regular.woff2") format("woff2"); }
+@font-face { font-family:Inter; font-style:italic; font-weight:400; font-display:swap; src:url("assets/fonts//inter-v20-latin-italic.woff2") format("woff2"); }
+@font-face { font-family:Inter; font-style:normal; font-weight:500; font-display:swap; src:url("assets/fonts//inter-v20-latin-500.woff2") format("woff2"); }
+@font-face { font-family:Inter; font-style:italic; font-weight:500; font-display:swap; src:url("assets/fonts//inter-v20-latin-500italic.woff2") format("woff2"); }
+@font-face { font-family:Inter; font-style:normal; font-weight:600; font-display:swap; src:url("assets/fonts//inter-v20-latin-600.woff2") format("woff2"); }
+@font-face { font-family:Inter; font-style:italic; font-weight:600; font-display:swap; src:url("assets/fonts//inter-v20-latin-600italic.woff2") format("woff2"); }
+@font-face { font-family:Inter; font-style:normal; font-weight:700; font-display:swap; src:url("assets/fonts//inter-v20-latin-700.woff2") format("woff2"); }
+@font-face { font-family:Inter; font-style:italic; font-weight:700; font-display:swap; src:url("assets/fonts//inter-v20-latin-700italic.woff2") format("woff2"); }
+@font-face { font-family:Inter; font-style:normal; font-weight:800; font-display:swap; src:url("assets/fonts//inter-v20-latin-800.woff2") format("woff2"); }
+@font-face { font-family:Inter; font-style:italic; font-weight:800; font-display:swap; src:url("assets/fonts//inter-v20-latin-800italic.woff2") format("woff2"); }
+@font-face { font-family:Inter; font-style:normal; font-weight:900; font-display:swap; src:url("assets/fonts//inter-v20-latin-900.woff2") format("woff2"); }
+@font-face { font-family:Inter; font-style:italic; font-weight:900; font-display:swap; src:url("assets/fonts//inter-v20-latin-900italic.woff2") format("woff2"); }
+
+.root {
+    border: none;
+}
+
+main {
+    -webkit-app-region: drag;
+    -webkit-user-select: none;
+    user-select: none;
+}
+
+button, input, img {
+    -webkit-app-region: no-drag;
+}
+
+img {
+    -webkit-app-region: no-drag;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
+
+input:focus {
+    outline: none;
+}
+
+#modal {
+    -webkit-app-region: drag;
+}
